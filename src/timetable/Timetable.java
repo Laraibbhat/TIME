@@ -29,10 +29,10 @@ public class Timetable {
     public static void printPopulation(population populations){
     
         System.out.println("-----------------------------------------------------------------------------------------");
-        String[] days = new String[] {"MONDAY","TUESDAY","WENSDAY","THURSDAY","FRIDAY","SATURDAY"};
+        String[] days = new String[] {"MONDAY  ","TUESDAY ","WENSDAY ","THURSDAY","FRIDAY  ","SATURDAY"};
         for(int i=0;i<populations.getChromosome().length;i++)
             System.out.println(days[i]+"            "+Arrays.toString(populations.getChromosome()[i].getGenes()));
-         System.out.println("/n/n");
+         System.out.println("\n");
         
     }
 
